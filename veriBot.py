@@ -8,16 +8,10 @@ import json
 
 
 config = {
-  "apiKey": "AIzaSyD99bfdlRuy7F7zRTK1-qpvOWzHgWMXSPE",
-  "authDomain": "randomfilm-99967.firebaseapp.com",
-  "databaseURL": "https://randomfilm-99967.firebaseio.com",
-  "projectId": "randomfilm-99967",
-  "storageBucket": "randomfilm-99967.appspot.com",
-  "messagingSenderId" : "831046198143",
-  "appId": "1:831046198143:web:520a5479258a7910b2704a",
-  "measurementId": "G-23Q2L2LKWY"
-
-  
+  "apiKey": "apiKey",
+  "authDomain": "projectId.firebaseapp.com",
+  "databaseURL": "https://databaseName.firebaseio.com",
+  "storageBucket": "projectId.appspot.com",
 }
 
 firebase = pyrebase.initialize_app(config)
